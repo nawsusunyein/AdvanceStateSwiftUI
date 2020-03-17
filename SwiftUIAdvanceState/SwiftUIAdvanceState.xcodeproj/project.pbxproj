@@ -20,6 +20,10 @@
 		23E5C3222420848B00253A50 /* PlayerTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3212420848B00253A50 /* PlayerTwoView.swift */; };
 		23E5C3242420915F00253A50 /* ObjectWillChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3232420915F00253A50 /* ObjectWillChangeView.swift */; };
 		23E5C326242091DE00253A50 /* UserAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C325242091DE00253A50 /* UserAuthentication.swift */; };
+		23E5C3282420970600253A50 /* EnvironmentObjectShareDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3272420970600253A50 /* EnvironmentObjectShareDataView.swift */; };
+		23E5C32A2420A77900253A50 /* StudentSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3292420A77900253A50 /* StudentSetting.swift */; };
+		23E5C32C2420A8F600253A50 /* StudentOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C32B2420A8F600253A50 /* StudentOne.swift */; };
+		23E5C32E2420A90500253A50 /* StudentTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C32D2420A90500253A50 /* StudentTwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,10 @@
 		23E5C3212420848B00253A50 /* PlayerTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTwoView.swift; sourceTree = "<group>"; };
 		23E5C3232420915F00253A50 /* ObjectWillChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectWillChangeView.swift; sourceTree = "<group>"; };
 		23E5C325242091DE00253A50 /* UserAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthentication.swift; sourceTree = "<group>"; };
+		23E5C3272420970600253A50 /* EnvironmentObjectShareDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectShareDataView.swift; sourceTree = "<group>"; };
+		23E5C3292420A77900253A50 /* StudentSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSetting.swift; sourceTree = "<group>"; };
+		23E5C32B2420A8F600253A50 /* StudentOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentOne.swift; sourceTree = "<group>"; };
+		23E5C32D2420A90500253A50 /* StudentTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +129,10 @@
 				23E5C3212420848B00253A50 /* PlayerTwoView.swift */,
 				23E5C3232420915F00253A50 /* ObjectWillChangeView.swift */,
 				23E5C325242091DE00253A50 /* UserAuthentication.swift */,
+				23E5C3272420970600253A50 /* EnvironmentObjectShareDataView.swift */,
+				23E5C3292420A77900253A50 /* StudentSetting.swift */,
+				23E5C32B2420A8F600253A50 /* StudentOne.swift */,
+				23E5C32D2420A90500253A50 /* StudentTwo.swift */,
 			);
 			path = SwiftUIAdvanceState;
 			sourceTree = "<group>";
@@ -282,11 +294,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23E5C32E2420A90500253A50 /* StudentTwo.swift in Sources */,
+				23E5C3282420970600253A50 /* EnvironmentObjectShareDataView.swift in Sources */,
 				23E5C2EE24207B6D00253A50 /* AppDelegate.swift in Sources */,
+				23E5C32A2420A77900253A50 /* StudentSetting.swift in Sources */,
 				23E5C31E2420840100253A50 /* PlayerSetting.swift in Sources */,
 				23E5C326242091DE00253A50 /* UserAuthentication.swift in Sources */,
 				23E5C3222420848B00253A50 /* PlayerTwoView.swift in Sources */,
 				23E5C3202420847B00253A50 /* PlayerOneView.swift in Sources */,
+				23E5C32C2420A8F600253A50 /* StudentOne.swift in Sources */,
 				23E5C2F024207B6D00253A50 /* SceneDelegate.swift in Sources */,
 				23E5C3242420915F00253A50 /* ObjectWillChangeView.swift in Sources */,
 				23E5C2F224207B6D00253A50 /* ContentView.swift in Sources */,

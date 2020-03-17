@@ -34,6 +34,13 @@ struct ContentView: View {
                         .foregroundColor(Color.white)
                         .cornerRadius(10)
                 }.buttonStyle(PlainButtonStyle())
+                NavigationLink(destination:EnvironmentObjectShareDataView()){
+                    Text("Environment Object Share Data")
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(10)
+                }.buttonStyle(PlainButtonStyle())
             }
         }
     }
