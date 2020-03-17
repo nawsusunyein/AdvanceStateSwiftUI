@@ -13,7 +13,6 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             List{
-                Text("Total tapped score is \(playerSetting.total)")
                 NavigationLink(destination:PlayerOneView()){
                     Text("Player One")
                         .padding()
@@ -23,6 +22,13 @@ struct ContentView: View {
                 }.buttonStyle(PlainButtonStyle())
                 NavigationLink(destination:PlayerTwoView()){
                     Text("Player Two")
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(10)
+                }.buttonStyle(PlainButtonStyle())
+                NavigationLink(destination:ObjectWillChangeView()){
+                    Text("Object Will Change View")
                         .padding()
                         .background(Color.blue)
                         .foregroundColor(Color.white)

@@ -18,6 +18,8 @@
 		23E5C31E2420840100253A50 /* PlayerSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C31D2420840100253A50 /* PlayerSetting.swift */; };
 		23E5C3202420847B00253A50 /* PlayerOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C31F2420847B00253A50 /* PlayerOneView.swift */; };
 		23E5C3222420848B00253A50 /* PlayerTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3212420848B00253A50 /* PlayerTwoView.swift */; };
+		23E5C3242420915F00253A50 /* ObjectWillChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3232420915F00253A50 /* ObjectWillChangeView.swift */; };
+		23E5C326242091DE00253A50 /* UserAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C325242091DE00253A50 /* UserAuthentication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		23E5C31D2420840100253A50 /* PlayerSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSetting.swift; sourceTree = "<group>"; };
 		23E5C31F2420847B00253A50 /* PlayerOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerOneView.swift; sourceTree = "<group>"; };
 		23E5C3212420848B00253A50 /* PlayerTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTwoView.swift; sourceTree = "<group>"; };
+		23E5C3232420915F00253A50 /* ObjectWillChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectWillChangeView.swift; sourceTree = "<group>"; };
+		23E5C325242091DE00253A50 /* UserAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthentication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				23E5C31D2420840100253A50 /* PlayerSetting.swift */,
 				23E5C31F2420847B00253A50 /* PlayerOneView.swift */,
 				23E5C3212420848B00253A50 /* PlayerTwoView.swift */,
+				23E5C3232420915F00253A50 /* ObjectWillChangeView.swift */,
+				23E5C325242091DE00253A50 /* UserAuthentication.swift */,
 			);
 			path = SwiftUIAdvanceState;
 			sourceTree = "<group>";
@@ -278,9 +284,11 @@
 			files = (
 				23E5C2EE24207B6D00253A50 /* AppDelegate.swift in Sources */,
 				23E5C31E2420840100253A50 /* PlayerSetting.swift in Sources */,
+				23E5C326242091DE00253A50 /* UserAuthentication.swift in Sources */,
 				23E5C3222420848B00253A50 /* PlayerTwoView.swift in Sources */,
 				23E5C3202420847B00253A50 /* PlayerOneView.swift in Sources */,
 				23E5C2F024207B6D00253A50 /* SceneDelegate.swift in Sources */,
+				23E5C3242420915F00253A50 /* ObjectWillChangeView.swift in Sources */,
 				23E5C2F224207B6D00253A50 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
