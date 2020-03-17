@@ -26,6 +26,7 @@
 		23E5C32E2420A90500253A50 /* StudentTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C32D2420A90500253A50 /* StudentTwo.swift */; };
 		23E5C3302420AE0600253A50 /* ConstantBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C32F2420AE0600253A50 /* ConstantBindingView.swift */; };
 		23E5C3322420B0AF00253A50 /* CustomBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3312420B0AF00253A50 /* CustomBindingView.swift */; };
+		23E5C3342420B36A00253A50 /* TimerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3332420B36A00253A50 /* TimerTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		23E5C32D2420A90500253A50 /* StudentTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTwo.swift; sourceTree = "<group>"; };
 		23E5C32F2420AE0600253A50 /* ConstantBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantBindingView.swift; sourceTree = "<group>"; };
 		23E5C3312420B0AF00253A50 /* CustomBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBindingView.swift; sourceTree = "<group>"; };
+		23E5C3332420B36A00253A50 /* TimerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				23E5C32D2420A90500253A50 /* StudentTwo.swift */,
 				23E5C32F2420AE0600253A50 /* ConstantBindingView.swift */,
 				23E5C3312420B0AF00253A50 /* CustomBindingView.swift */,
+				23E5C3332420B36A00253A50 /* TimerTest.swift */,
 			);
 			path = SwiftUIAdvanceState;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23E5C32E2420A90500253A50 /* StudentTwo.swift in Sources */,
+				23E5C3342420B36A00253A50 /* TimerTest.swift in Sources */,
 				23E5C3322420B0AF00253A50 /* CustomBindingView.swift in Sources */,
 				23E5C3282420970600253A50 /* EnvironmentObjectShareDataView.swift in Sources */,
 				23E5C2EE24207B6D00253A50 /* AppDelegate.swift in Sources */,
