@@ -15,6 +15,9 @@
 		23E5C2FA24207B7600253A50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E5C2F824207B7600253A50 /* LaunchScreen.storyboard */; };
 		23E5C30524207B7600253A50 /* SwiftUIAdvanceStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C30424207B7600253A50 /* SwiftUIAdvanceStateTests.swift */; };
 		23E5C31024207B7600253A50 /* SwiftUIAdvanceStateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C30F24207B7600253A50 /* SwiftUIAdvanceStateUITests.swift */; };
+		23E5C31E2420840100253A50 /* PlayerSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C31D2420840100253A50 /* PlayerSetting.swift */; };
+		23E5C3202420847B00253A50 /* PlayerOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C31F2420847B00253A50 /* PlayerOneView.swift */; };
+		23E5C3222420848B00253A50 /* PlayerTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3212420848B00253A50 /* PlayerTwoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		23E5C30B24207B7600253A50 /* SwiftUIAdvanceStateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIAdvanceStateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E5C30F24207B7600253A50 /* SwiftUIAdvanceStateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAdvanceStateUITests.swift; sourceTree = "<group>"; };
 		23E5C31124207B7600253A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23E5C31D2420840100253A50 /* PlayerSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSetting.swift; sourceTree = "<group>"; };
+		23E5C31F2420847B00253A50 /* PlayerOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerOneView.swift; sourceTree = "<group>"; };
+		23E5C3212420848B00253A50 /* PlayerTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTwoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				23E5C2F824207B7600253A50 /* LaunchScreen.storyboard */,
 				23E5C2FB24207B7600253A50 /* Info.plist */,
 				23E5C2F524207B7600253A50 /* Preview Content */,
+				23E5C31D2420840100253A50 /* PlayerSetting.swift */,
+				23E5C31F2420847B00253A50 /* PlayerOneView.swift */,
+				23E5C3212420848B00253A50 /* PlayerTwoView.swift */,
 			);
 			path = SwiftUIAdvanceState;
 			sourceTree = "<group>";
@@ -268,6 +277,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				23E5C2EE24207B6D00253A50 /* AppDelegate.swift in Sources */,
+				23E5C31E2420840100253A50 /* PlayerSetting.swift in Sources */,
+				23E5C3222420848B00253A50 /* PlayerTwoView.swift in Sources */,
+				23E5C3202420847B00253A50 /* PlayerOneView.swift in Sources */,
 				23E5C2F024207B6D00253A50 /* SceneDelegate.swift in Sources */,
 				23E5C2F224207B6D00253A50 /* ContentView.swift in Sources */,
 			);
