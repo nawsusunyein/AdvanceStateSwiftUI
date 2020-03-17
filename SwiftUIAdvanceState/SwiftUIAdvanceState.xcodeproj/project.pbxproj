@@ -24,6 +24,8 @@
 		23E5C32A2420A77900253A50 /* StudentSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3292420A77900253A50 /* StudentSetting.swift */; };
 		23E5C32C2420A8F600253A50 /* StudentOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C32B2420A8F600253A50 /* StudentOne.swift */; };
 		23E5C32E2420A90500253A50 /* StudentTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C32D2420A90500253A50 /* StudentTwo.swift */; };
+		23E5C3302420AE0600253A50 /* ConstantBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C32F2420AE0600253A50 /* ConstantBindingView.swift */; };
+		23E5C3322420B0AF00253A50 /* CustomBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3312420B0AF00253A50 /* CustomBindingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		23E5C3292420A77900253A50 /* StudentSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSetting.swift; sourceTree = "<group>"; };
 		23E5C32B2420A8F600253A50 /* StudentOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentOne.swift; sourceTree = "<group>"; };
 		23E5C32D2420A90500253A50 /* StudentTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTwo.swift; sourceTree = "<group>"; };
+		23E5C32F2420AE0600253A50 /* ConstantBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantBindingView.swift; sourceTree = "<group>"; };
+		23E5C3312420B0AF00253A50 /* CustomBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBindingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,8 @@
 				23E5C3292420A77900253A50 /* StudentSetting.swift */,
 				23E5C32B2420A8F600253A50 /* StudentOne.swift */,
 				23E5C32D2420A90500253A50 /* StudentTwo.swift */,
+				23E5C32F2420AE0600253A50 /* ConstantBindingView.swift */,
+				23E5C3312420B0AF00253A50 /* CustomBindingView.swift */,
 			);
 			path = SwiftUIAdvanceState;
 			sourceTree = "<group>";
@@ -295,9 +301,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				23E5C32E2420A90500253A50 /* StudentTwo.swift in Sources */,
+				23E5C3322420B0AF00253A50 /* CustomBindingView.swift in Sources */,
 				23E5C3282420970600253A50 /* EnvironmentObjectShareDataView.swift in Sources */,
 				23E5C2EE24207B6D00253A50 /* AppDelegate.swift in Sources */,
 				23E5C32A2420A77900253A50 /* StudentSetting.swift in Sources */,
+				23E5C3302420AE0600253A50 /* ConstantBindingView.swift in Sources */,
 				23E5C31E2420840100253A50 /* PlayerSetting.swift in Sources */,
 				23E5C326242091DE00253A50 /* UserAuthentication.swift in Sources */,
 				23E5C3222420848B00253A50 /* PlayerTwoView.swift in Sources */,

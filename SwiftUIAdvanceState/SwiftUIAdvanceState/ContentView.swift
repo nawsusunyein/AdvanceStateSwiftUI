@@ -41,6 +41,20 @@ struct ContentView: View {
                         .foregroundColor(Color.white)
                         .cornerRadius(10)
                 }.buttonStyle(PlainButtonStyle())
+                NavigationLink(destination:ConstantBindingView()){
+                    Text("Constant Binding")
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(10)
+                }.buttonStyle(PlainButtonStyle())
+                NavigationLink(destination:CustomBindingView()){
+                    Text("Custom Binding")
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(10)
+                }.buttonStyle(PlainButtonStyle())
             }
         }
     }
